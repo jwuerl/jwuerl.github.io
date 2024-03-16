@@ -21,6 +21,12 @@ a:hover {
 a:active {
   color: #868686;
 }
+
+iframe {
+  border: none;
+  overflow: hidden;
+}
+
 /* ID Styles */
 
 
@@ -32,7 +38,6 @@ a:active {
   justify-content: center;
   align-items: center;
   background-color: #f3f3f2;
-  ;
 }
 
 .page-title {
@@ -41,11 +46,9 @@ a:active {
   font-size: 40px;
   line-height: 40px;
   color: #444444;
-
 }
 
 .logo {
-
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -71,4 +74,17 @@ a:active {
 .details {
   font-size: 20px;
   line-height: 28px;
+  margin-top: 10px;
+}
+
+.title {
+  font-size: 60px;
+  font-synthesis-weight: 70px;
+  padding-bottom: 20px;
+}
+
+.desc {
+  font-size: 20px;
+  font-synthesis-weight: 28px;
+  padding-bottom: 20px;
 }
