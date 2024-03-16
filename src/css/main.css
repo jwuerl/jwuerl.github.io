@@ -1,11 +1,30 @@
-html {
-  font-family: Source Sans Pro;
+body {
+  margin: 0;
+  font-family: llxb, Source Sans Pro;
   color: #444444;
 }
 
-body {
-  margin: 0;
+a:link {
+  color: #444444;
+  text-decoration: none; 
 }
+
+a:visited {
+  color: #444444;
+}
+
+a:hover {
+  color: #868686;
+  
+}
+
+a:active {
+  color: #868686;
+}
+/* ID Styles */
+
+
+/* Class Styles */
 
 .flex-container {
   display: flex;
@@ -35,20 +54,21 @@ body {
   color: #444444
 }
 
-a:link {
-  color: #444444;
-  text-decoration: none; 
+.project {
+  margin-right: 30px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 28px;
 }
 
-a:visited {
-  color: #444444;
+.date {
+  color: #bbbbbb;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 15px;
 }
 
-a:hover {
-  color: #868686;
-  
-}
-
-a:active {
-  color: #868686;
+.details {
+  font-size: 20px;
+  line-height: 28px;
 }
