@@ -77,6 +77,11 @@ iframe {
   font-synthesis-weight: 28px;
   padding-bottom: 20px;
 }
+.project_title {
+  font-size: 60px;
+  font-synthesis-weight: 70px;
+  padding-bottom: 20px;
+}
 
 .date {
   color: #bbbbbb;
