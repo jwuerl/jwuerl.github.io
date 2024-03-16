@@ -1,0 +1,54 @@
+html {
+  font-family: Source Sans Pro;
+  color: #444444;
+}
+
+body {
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f2;
+  ;
+}
+
+.page-title {
+  margin-right: 40px;
+  display: inline-block;
+  font-size: 40px;
+  line-height: 40px;
+  color: #444444;
+
+}
+
+.logo {
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: none;
+  color: #444444
+}
+
+a:link {
+  color: #444444;
+  text-decoration: none; 
+}
+
+a:visited {
+  color: #444444;
+}
+
+a:hover {
+  color: #868686;
+  
+}
+
+a:active {
+  color: #868686;
+}
