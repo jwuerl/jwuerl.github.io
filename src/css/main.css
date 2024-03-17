@@ -93,3 +93,21 @@ iframe {
 	font-synthesis-weight: 28px;
 	padding-bottom: 20px;
 }
+
+.image-link {
+	
+}
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
