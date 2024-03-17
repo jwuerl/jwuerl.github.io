@@ -2,7 +2,7 @@
 function loadHeader() {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'header.html');
-    window.alert("sometext "+ xhr.status);
+    
     xhr.onload = function() {
         
       if (xhr.status === 200) {
@@ -14,4 +14,6 @@ function loadHeader() {
   }
   
   // Load the header on page load
-  window.onload = loadHeader;
+  // window.onload = loadHeader;
+  
+  // window.alert("sometext "+ xhr.status);
