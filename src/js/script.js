@@ -1,3 +1,14 @@
+// URL dem Iframe übergeben
+const iframe = document.getElementById('myIframe');
+if (iframe) {
+	console.log('Iframe found!');
+	const url = window.location.href; // Get parent window URL
+	iframe.contentWindow.postMessage(url, '*'); // Send URL to iframe
+} else {
+	console.log('Iframe not found!');
+}
+
+	
 // Magnific Popup http://dimsemenov.com/plugins/magnific-popup/
 $(document).ready(function() {
   $('.image-link').magnificPopup({
@@ -7,23 +18,3 @@ $(document).ready(function() {
   });
 });
 
-
-// Function to load the header content
-function loadHeader() {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'header.html');
-    
-    xhr.onload = function() {
-        
-      if (xhr.status === 200) {
-        window.alert("sometext");
-        document.getElementById('header').innerHTML = xhr.responseText;
-      }
-    };
-    xhr.send();
-  }
-  
-  // Load the header on page load
-  // window.onload = loadHeader;
-  
-  // window.alert("sometext "+ xhr.status);
