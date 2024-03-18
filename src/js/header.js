@@ -10,7 +10,8 @@ window.addEventListener('message', function(event) {
 	const s3 = parentUrl.indexOf("figma.html");
 	const s4 = parentUrl.indexOf("fotos.html");
 	const s5 = parentUrl.indexOf("videos.html");
-	if (s1 > -1 || s2 > -1 || s3 > -1 || s4 > -1 || s5 > -1) {
+	const s6 = parentUrl.indexOf("index.html");
+	if (s1 > -1 || s2 > -1 || s3 > -1 || s4 > -1 || s5 > -1 || s6 > -1) {
 		portfolioLink.style.color = "#888888";
 	}
 	if (parentUrl.indexOf("kontakt.html") > -1) {
